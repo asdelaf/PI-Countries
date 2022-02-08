@@ -21,4 +21,4 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
   });
-};
+};//55
