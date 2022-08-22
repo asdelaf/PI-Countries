@@ -34,7 +34,7 @@ module.exports = (sequelize) => {
       allowNull: true,
     },
     population: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: true,
     },
   },{timestamps: false

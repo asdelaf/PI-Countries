@@ -2,10 +2,10 @@ import {
     GET_COUNTRIES,
     GET_COUNTRY_ID,
   } from "../actions/countries";
-  
+
   const initialState = {
     countries: [],
-    country: {},
+    country: {}
   };
   
   export default function rootReducer(state = initialState, action) {

@@ -7,18 +7,19 @@ module.exports = (sequelize) => {
     name: {
       type: DataTypes.STRING,
       allowNull: false,
+      primaryKey: true,
     },
     difficulty: {
       type: DataTypes.ENUM('1', '2', '3', '4', '5'),
-      allowNull: false,
+      allowNull: true,
     },
     duration: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     season: {
       type: DataTypes.ENUM('Verano', 'Invierno', 'Otoño', 'Primavera'),
-      allowNull: false,
+      allowNull: true,
     },
   },{timestamps: false
   });

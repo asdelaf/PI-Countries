@@ -8,6 +8,6 @@ const router = Router();
 
 
 router.use("/countries", CountryRoute);
-//router,use("/activity", ActivityRoute);
+router.use("/activities", ActivityRoute);
 
 module.exports = router;
